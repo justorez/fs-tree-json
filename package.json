@@ -1,6 +1,6 @@
 {
   "name": "@orez/fs-tree-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert directory tree to json.",
   "bin": {
     "treejson": "bin/index.js"
@@ -13,7 +13,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": ["fs-tree","json"],
+  "keywords": [
+    "fs-tree",
+    "json"
+  ],
   "author": "justorez",
   "license": "WTFPL",
   "devDependencies": {
