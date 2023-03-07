@@ -22,6 +22,9 @@ npm i @orez/fs-tree-json
 
 ```sh
 treejson d:/a a.json
+
+# Exclude txt png files
+treejson d:/a a.json --ex txt,png
 ```
 
 ```
