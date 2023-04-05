@@ -18,13 +18,16 @@ npm i @orez/fs-tree-json
 
 ### Usage
 
-#### 1. Shell
+#### 1. Command Line
 
 ```sh
 treejson d:/a a.json
 
-# Exclude txt png files
-treejson d:/a a.json --ex txt,png
+# Exclude txt, png files
+treejson d:/a a.json -e txt -e png
+
+# Print on the console
+treejson d:/a -p
 ```
 
 ```
@@ -70,7 +73,7 @@ D:\a
 }
 ```
 
-#### 2. API
+#### 2. Module
 
 ```js
 const treeJson = require('@orez/fs-tree-json')

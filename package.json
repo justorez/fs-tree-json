@@ -1,14 +1,18 @@
 {
   "name": "@orez/fs-tree-json",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Convert directory tree to json.",
   "bin": {
-    "treejson": "bin/index.js"
+    "treejson": "bin.js"
   },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js",
+    "bin.js"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -19,9 +23,6 @@
   ],
   "author": "justorez",
   "license": "WTFPL",
-  "devDependencies": {
-    "@types/node": "^18.0.0"
-  },
   "dependencies": {
     "minimist": "^1.2.6"
   },
